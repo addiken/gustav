@@ -205,6 +205,16 @@ button{
   align-items: center;
   justify-content: space-between;
 }
+.panel a{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #051F36;
+  width: 390px;
+  text-align: center;
+}
 .panel img{
   width: 165px;
   height: 165px;
@@ -230,4 +240,102 @@ button{
   font-size: 14px;
   line-height: 17px;
   color: #051F36;
+}
+.login{
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.login p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #051F36;
+  margin: 0px;
+  padding-bottom: 60px;
+}
+.login input{
+  width: 390px;
+  height: 48px;
+  opacity: 0.3;
+  border: 2px solid #051F36;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #F5F5F5;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.login ::-webkit-input-placeholder{
+  text-align: center;
+}
+.login input:focus{
+  opacity: 0.7;
+  outline: none !important;
+}
+.btn2{
+  padding: 16px 64px 16px 64px;
+  background: #FFA523;
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border: none;
+  margin-bottom: 30px;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-top: 20px;
+}
+.socials img{
+  margin-left: 24px;
+}
+.addimg{
+  box-shadow: 0px 0px 32px rgba(5, 31, 54, 0.08);
+  border-radius: 16px;
+}
+.content-add{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 88.5%;
+  margin: 60px auto 80px;
+}
+.content-add a{
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #051F36;
+  margin-bottom: 40px;
+}
+.AL-inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+  margin-bottom: 40px;
+}
+.AL-inputs input{
+  width: 390px;
+}
+.ipt-big{
+  height: 205px;
 }
