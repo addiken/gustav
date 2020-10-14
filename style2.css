@@ -332,6 +332,20 @@ button{
   color: #051F36;
   margin-bottom: 40px;
 }
+.content-add p{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #051F36;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.btna{
+  margin-top: 16px;
+  margin-bottom: 16px !important;
+}
 .AL-inputs{
   display: flex;
   flex-direction: column;
@@ -344,4 +358,14 @@ button{
 }
 .ipt-big{
   height: 205px;
+}
+.under-btn{
+  font-family: Montserrat !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 150% !important;
+  color: #051F36 !important;
+  opacity: 0.3 !important;
+  margin: 0px !important;
 }
