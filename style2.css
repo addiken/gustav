@@ -172,15 +172,21 @@ button{
   grid-row-gap: 80px;
   width: 88.5%;
   margin: 60px auto 80px;
-  /* margin-top: 60px;
-  margin-left: calc((100vw - 1680px)/2);
-  margin-right: calc((100vw - 1680px)/2);
-  margin-bottom: 80px; */
 }
-.apartments{
-
+.apartments-content{
+  width: 88.5%;
+  margin: 60px auto 80px;
 }
 .apartments a{
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #051F36;
+}
+.apartments-content a{
   text-decoration: none;
   font-family: Montserrat;
   font-style: normal;
