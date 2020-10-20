@@ -9,7 +9,7 @@
   <body>
     <header>
       <div class="head">
-        <a href="main.html"><img class="logo" src="images/logo.png" alt=""></a>
+        <a href="main.php"><img class="logo" src="images/logo.png" alt=""></a>
         <div class="number">
           <p class="phoneNumber">+7 (978) 861-86-97 </p>
           <p class="callTime"> Звоните нам с 9:00 до 21:00</p>
@@ -24,16 +24,8 @@
       <div class="apartments">
         <a href="#">Мои объявления</a>
         <div class="panels">
-          <div class="panel">
-            <img src="images/apartment.png" alt="">
-            <div class="cont">
-              <a href="#">5 950 000 ₽</a>
-              <p>2-комн. квартира,<br>66м², 1/5 этаж</p>
-              <p class="gray">Ленинский р-н, ул.<br>Хрусталёва, д. 51</p>
-              <button class="btn1" type="button" name="button">Редактировать</button>
-            </div>
-          </div>
-          <a href="add-cat.html"><img href="" class="addimg" src="images/add.png" alt=""></a>
+          <?php include 'advert.php'; ?>
+          <a href="add-cat.php"><img href="" class="addimg" src="images/add.png" alt=""></a>
         </div>
       </div>
     </div>

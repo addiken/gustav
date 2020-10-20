@@ -9,14 +9,14 @@
   <body>
     <header>
       <div class="head">
-        <a href="main.html"><img class="logo" src="images/logo.png" alt=""></a>
+        <a href="main.php"><img class="logo" src="images/logo.png" alt=""></a>
         <div class="number">
           <p class="phoneNumber">+7 (978) 861-86-97 </p>
           <p class="callTime"> Звоните нам с 9:00 до 21:00</p>
         </div>
         <div class="rightH">
           <img class="favorites" src="images/heart.png" alt="">
-          <a href="#">Алексей Балашов</a>
+          <a href="PersonalArea.php">Алексей Балашов</a>
         </div>
       </div>
     </header>
@@ -26,13 +26,13 @@
         <a>Выберите тип недвижимости</a>
         <div class="panels">
           <div class="panel">
-            <a>Квартира</a>
+            <a href="add-app.php">Квартира</a>
           </div>
           <div class="panel">
-            <a>Частный дом</a>
+            <a href="add-house.php">Частный дом</a>
           </div>
           <div class="panel">
-            <a>Земельный участок</a>
+            <a href="add-area.php">Земельный участок</a>
           </div>
         </div>
       </div>

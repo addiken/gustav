@@ -9,14 +9,14 @@
   <body>
     <header>
       <div class="head">
-        <a href="main.html"><img class="logo" src="images/logo.png" alt=""></a>
+        <a href="main.php"><img class="logo" src="images/logo.png" alt=""></a>
         <div class="number">
           <p class="phoneNumber">+7 (978) 861-86-97 </p>
           <p class="callTime"> Звоните нам с 9:00 до 21:00</p>
         </div>
         <div class="rightH">
           <img class="favorites" src="images/heart.png" alt="">
-          <a href="#">Алексей Балашов</a>
+          <a href="PersonalArea.php">Алексей Балашов</a>
         </div>
       </div>
     </header>
@@ -38,7 +38,7 @@
         <input type="text" name="" value="" placeholder="Номер дома">
         <input type="text" name="" value="" class="ipt-big" placeholder="Описание">
       </div>
-      <a href="add-img.html"><button class="btn" type="button" name="button">Далее</button></a>
+      <a href="add-img.php"><button class="btn" type="button" name="button">Далее</button></a>
     </div>
   </body>
 </html>

@@ -8,23 +8,13 @@
   </head>
   <body>
     <header>
-      <div class="head">
-        <a href="main.html"><img class="logo" src="images/logo.png" alt=""></a>
-        <div class="number">
-          <p class="phoneNumber">+7 (978) 861-86-97 </p>
-          <p class="callTime"> Звоните нам с 9:00 до 21:00</p>
-        </div>
-        <div class="rightH">
-          <img class="favorites" src="images/heart.png" alt="">
-          <a href="login.html"><button class="btn" type="button" name="button">Войти</button></a>
-        </div>
-      </div>
+      <?php include 'header.php'; ?>
     </header>
     <div class="login">
       <p class="">Вход</p>
       <input type="text" placeholder="email">
       <input type="password" placeholder="пароль">
-      <a href="PersonalArea.html"><button type="button" class="btn2" name="button">Войти</button></a>
+      <a href="PersonalArea.php"><button type="button" class="btn2" name="button">Войти</button></a>
       <img src="images/orsocial.png" alt="">
       <div class="socials">
         <img src="images/bxl-google.png" alt="">
