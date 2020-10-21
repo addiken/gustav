@@ -1,3 +1,4 @@
+<?php include 'includes/db.php' ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,32 +8,16 @@
     <link rel="stylesheet" href="style2.css">
   </head>
   <body>
-    <header>
-      <?php include 'header.php'; ?>
-    </header>
-
-      <div class="apartments-content">
-        <a href="#">Земельные участки</a>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
-        <?php include 'advert.php'; ?>
+    <?php include 'includes/header.php'; ?>
+    <div class="apartments-content">
+      <a href="#">Земельные участки</a>
+      <div class="panels">
+        <?php
+        for ($i = 0; $i<16; $i++) {
+            include 'advert.php';
+        };
+        ?>
       </div>
+    </div>
   </body>
 </html>

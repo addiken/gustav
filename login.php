@@ -1,3 +1,4 @@
+<?php include 'includes/db.php' ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,9 +8,7 @@
     <link rel="stylesheet" href="style2.css">
   </head>
   <body>
-    <header>
-      <?php include 'header.php'; ?>
-    </header>
+    <?php include 'includes/header.php'; ?>
     <div class="login">
       <p class="">Вход</p>
       <input type="text" placeholder="email">
