@@ -1,3 +1,5 @@
+<?php
+  include 'includes/db.php';?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,7 +18,12 @@
         </div>
         <div class="rightH">
           <img class="favorites" src="images/heart.png" alt="">
-          <a href="#">Алексей Балашов</a>
+          <a href="/"><?php
+          $email = $_POST[email];
+          $result1 = $connection->query("SELECT * FROM `user` WHERE `email` = '$email'");
+          $user1 = $result1->fetch_assoc();
+          echo $user1['name'] . $user1['surname'];
+          ?></a>
         </div>
       </div>
     </header>

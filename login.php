@@ -11,9 +11,11 @@
     <?php include 'includes/header.php'; ?>
     <div class="login">
       <p class="">Вход</p>
-      <input type="text" placeholder="email">
-      <input type="password" placeholder="пароль">
-      <a href="PersonalArea.php"><button type="button" class="btn2" name="button">Войти</button></a>
+      <form action="auth.php" method="post">
+        <input type="email" name="email" placeholder="email" ><br>
+        <input type="password" name="pass" placeholder="пароль" ><br>
+        <input type="submit" class="btn2" value="Войти">
+      </form>
       <img src="images/orsocial.png" alt="">
       <div class="socials">
         <img src="images/bxl-google.png" alt="">
